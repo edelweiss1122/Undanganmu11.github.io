@@ -1,0 +1,309 @@
+/* ====================================
+   CUSTOM COLOR THEMES
+   Gunakan file ini untuk mengganti tema warna dengan mudah
+   ==================================== */
+
+/* ====================================
+   TEMA 1: CLASSIC GOLD (Default)
+   ==================================== */
+.theme-classic-gold {
+    --primary-gold: #D4AF37;
+    --primary-dark: #2C1810;
+    --primary-cream: #F5F1E8;
+    --accent-rose: #E8C4B8;
+    --accent-sage: #9CAF88;
+}
+
+/* ====================================
+   TEMA 2: ROSE GOLD ROMANTIC
+   ==================================== */
+.theme-rose-gold {
+    --primary-gold: #B76E79;
+    --primary-dark: #3E2723;
+    --primary-cream: #FFF8F0;
+    --accent-rose: #E6B8AF;
+    --accent-sage: #C9ADA7;
+}
+
+/* ====================================
+   TEMA 3: NAVY BLUE ELEGANT
+   ==================================== */
+.theme-navy-blue {
+    --primary-gold: #C9B037;
+    --primary-dark: #1B263B;
+    --primary-cream: #F0EBE3;
+    --accent-rose: #A8DADC;
+    --accent-sage: #457B9D;
+}
+
+/* ====================================
+   TEMA 4: EMERALD GREEN LUXURY
+   ==================================== */
+.theme-emerald-green {
+    --primary-gold: #D4AF37;
+    --primary-dark: #1B4332;
+    --primary-cream: #F1FAEE;
+    --accent-rose: #A8DADC;
+    --accent-sage: #2D6A4F;
+}
+
+/* ====================================
+   TEMA 5: BURGUNDY CLASSIC
+   ==================================== */
+.theme-burgundy {
+    --primary-gold: #FFD700;
+    --primary-dark: #800020;
+    --primary-cream: #FFF5E6;
+    --accent-rose: #C19A6B;
+    --accent-sage: #8B4513;
+}
+
+/* ====================================
+   TEMA 6: LAVENDER DREAMY
+   ==================================== */
+.theme-lavender {
+    --primary-gold: #9D84B7;
+    --primary-dark: #463F3A;
+    --primary-cream: #F7F4F3;
+    --accent-rose: #D4AFCD;
+    --accent-sage: #B4A5A5;
+}
+
+/* ====================================
+   TEMA 7: CORAL BEACH
+   ==================================== */
+.theme-coral {
+    --primary-gold: #FF6F61;
+    --primary-dark: #2F4858;
+    --primary-cream: #FFF8F0;
+    --accent-rose: #FFB6B9;
+    --accent-sage: #91C4A3;
+}
+
+/* ====================================
+   TEMA 8: BLUSH PINK SOFT
+   ==================================== */
+.theme-blush-pink {
+    --primary-gold: #E8B4B8;
+    --primary-dark: #5D4E6D;
+    --primary-cream: #FFF9FA;
+    --accent-rose: #FAD4D8;
+    --accent-sage: #A1CCA5;
+}
+
+/* ====================================
+   TEMA 9: SAGE GREEN MINIMALIST
+   ==================================== */
+.theme-sage-minimalist {
+    --primary-gold: #9CAF88;
+    --primary-dark: #3A4D39;
+    --primary-cream: #F5F5F0;
+    --accent-rose: #C8B8A5;
+    --accent-sage: #739072;
+}
+
+/* ====================================
+   TEMA 10: CHAMPAGNE GOLD
+   ==================================== */
+.theme-champagne {
+    --primary-gold: #F7E7CE;
+    --primary-dark: #4A3933;
+    --primary-cream: #FFFAF5;
+    --accent-rose: #E8D5C4;
+    --accent-sage: #C9B8A8;
+}
+
+/* ====================================
+   CARA MENGGUNAKAN:
+   ==================================== */
+
+/*
+1. Pilih tema favorit dari list di atas
+2. Di file HTML, tambahkan class tema ke <body>
+
+Contoh untuk tema Rose Gold:
+<body class="theme-rose-gold">
+
+Contoh untuk tema Navy Blue:
+<body class="theme-navy-blue">
+
+3. Atau bisa juga ditambahkan via JavaScript:
+document.body.classList.add('theme-rose-gold');
+
+4. Untuk custom tema sendiri, copy salah satu tema
+   dan ganti kode warna sesuai keinginan
+*/
+
+/* ====================================
+   CUSTOM FONT COMBINATIONS
+   ==================================== */
+
+/* Font Pairing 1: Romantic Script (Default) */
+.font-romantic {
+    --font-display: 'Great Vibes', cursive;
+    --font-serif: 'Cormorant Garamond', serif;
+    --font-sans: 'Montserrat', sans-serif;
+}
+
+/* Font Pairing 2: Modern Elegant */
+.font-modern {
+    --font-display: 'Playfair Display', serif;
+    --font-serif: 'Lora', serif;
+    --font-sans: 'Raleway', sans-serif;
+}
+
+/* Font Pairing 3: Classic Formal */
+.font-classic {
+    --font-display: 'Cinzel', serif;
+    --font-serif: 'Crimson Text', serif;
+    --font-sans: 'Open Sans', sans-serif;
+}
+
+/* Font Pairing 4: Soft & Sweet */
+.font-soft {
+    --font-display: 'Dancing Script', cursive;
+    --font-serif: 'Libre Baskerville', serif;
+    --font-sans: 'Poppins', sans-serif;
+}
+
+/* ====================================
+   ADDITIONAL CUSTOMIZATIONS
+   ==================================== */
+
+/* Ganti border radius untuk style lebih modern/rounded */
+.rounded-modern {
+    --border-radius-sm: 10px;
+    --border-radius-md: 20px;
+    --border-radius-lg: 30px;
+}
+
+.rounded-sharp {
+    --border-radius-sm: 5px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 15px;
+}
+
+/* Shadow styles */
+.shadow-soft {
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 5px 20px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-bold {
+    --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 8px 25px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 15px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* ====================================
+   ANIMATION SPEEDS
+   ==================================== */
+
+/* Untuk animasi lebih cepat */
+.animation-fast {
+    --transition-speed: 0.2s;
+    --animation-duration: 0.5s;
+}
+
+/* Untuk animasi lebih lambat/smooth */
+.animation-slow {
+    --transition-speed: 0.6s;
+    --animation-duration: 1.5s;
+}
+
+/* ====================================
+   MOBILE RESPONSIVE ADJUSTMENTS
+   ==================================== */
+
+/* Spacing untuk mobile */
+@media (max-width: 768px) {
+    .mobile-compact {
+        --section-padding: 40px 15px;
+        --element-spacing: 15px;
+    }
+    
+    .mobile-spacious {
+        --section-padding: 60px 20px;
+        --element-spacing: 30px;
+    }
+}
+
+/* ====================================
+   DARK MODE (Optional)
+   ==================================== */
+
+@media (prefers-color-scheme: dark) {
+    .dark-mode-auto {
+        --primary-cream: #1A1A1A;
+        --text-dark: #E0E0E0;
+        --primary-dark: #F5F1E8;
+    }
+}
+
+/* Manual dark mode toggle */
+body.dark-mode {
+    --primary-cream: #1A1A1A;
+    --text-dark: #E0E0E0;
+    --primary-dark: #F5F1E8;
+    background-color: #1A1A1A;
+    color: #E0E0E0;
+}
+
+/* ====================================
+   QUICK COLOR REFERENCE GUIDE
+   ==================================== */
+
+/*
+GOLD TONES:
+#D4AF37 - Classic Gold
+#B8860B - Dark Gold
+#FFD700 - Bright Gold
+#F7E7CE - Champagne
+#C9B037 - Antique Gold
+
+ROSE/PINK TONES:
+#E8C4B8 - Dusty Rose
+#FFB6B9 - Light Pink
+#E8B4B8 - Blush
+#FAD4D8 - Soft Pink
+#B76E79 - Rose Gold
+
+GREEN TONES:
+#9CAF88 - Sage Green
+#2D6A4F - Emerald
+#739072 - Olive Green
+#91C4A3 - Mint Green
+#A8DADC - Seafoam
+
+BLUE TONES:
+#1B263B - Navy Blue
+#457B9D - Steel Blue
+#4A90A4 - Ocean Blue
+#89CFF0 - Sky Blue
+
+NEUTRAL TONES:
+#F5F1E8 - Cream
+#F0EBE3 - Beige
+#E8DFD0 - Sand
+#2C1810 - Dark Brown
+#3A3A3A - Charcoal
+*/
+
+/* ====================================
+   USAGE EXAMPLES
+   ==================================== */
+
+/*
+EXAMPLE 1: Rose Gold Romantic Theme
+<body class="theme-rose-gold font-romantic rounded-modern">
+
+EXAMPLE 2: Navy Blue Elegant Theme
+<body class="theme-navy-blue font-classic rounded-sharp shadow-bold">
+
+EXAMPLE 3: Sage Green Minimalist
+<body class="theme-sage-minimalist font-modern rounded-modern shadow-soft">
+
+EXAMPLE 4: Custom Mix
+<body class="theme-lavender font-soft rounded-modern animation-slow">
+*/
